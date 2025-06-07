@@ -7,13 +7,21 @@ A user-friendly web application to add, view, and manage recipes easily. Perfect
 ### 📖 Table of Contents:
 
 1.[🔍 About Recipe Book](#about)
+
 2.[🛠 Features](#features)
+
 3.[📸 Screenshots](#screenshots)
+
 4.[🚀 Tech Stack](#techstack)
-5.[📦 Installation](#install)
+
+5.[📦 Installation](#installation)
+
 6.[🔧 Usage](#usage)
+
 7.[🤝 Contributing](#contribution)
+
 8.[📜 License](#license)
+
 9.[📬 Contact](#contact)
 
 ## <a name="about">🔍 About Recipe Book</a>
@@ -71,7 +79,7 @@ cd recipe-book
 - Refreshing the page clears all recipes (unless you add persistence)
 
 
-## <a name="contributing">🤝 Contributing</a>
+## <a name="contribution">🤝 Contributing</a>
   🔬 Contributions are highly encouraged! If you're a researcher, educator, or developer, feel free to improve MediCare.
 ```
 Fork the repository.

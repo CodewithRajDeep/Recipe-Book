@@ -1,0 +1,95 @@
+
+.add-recipe-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.add-recipe-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+
+.add-recipe-container input,
+.add-recipe-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+
+.add-recipe-container button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #27ae60;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-recipe-container button[type="submit"]:hover {
+  background-color: #219150;
+}
+
+
+#success-message {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.recipe-list {
+  margin-top: 2rem;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.recipe-card h3 {
+  color: #e67e22;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-card p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.delete-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
